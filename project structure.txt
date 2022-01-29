@@ -1,0 +1,53 @@
+1 --> true, 0 --> false
+
+IN passengers_info ARRAY of STRUCTURES (runtime) set:
+- passenger name
+- age
+- which code plane designated 
+- whether opted for round trip (1/0)
+- opted for which class? (economy, business)
+- opted for which meal
+- domestic concession
+- promo codes
+- which seat opted for
+- refund in case of cancellation (upto some time)
+- whther opted for cab during booking for flight
+- whether opted for packages?
+
+
+IN flight_info_status ARRAY of STRUCTURES set:
+- plane code (done)
+- starting and ending points of planes (done)
+- whether round trip flight (1/0) (done)
+- passenger count in each plane (runtime)
+- departure time (runtime)
+- arrival time (runtime)
+- distance travelled in km (done)
+- flight speed avg 500km/hr (random (450-560) at runtime)
+- various classes (economy, business)
+- meals available
+- seats availibility (latecomers pai option available nahi)
+- price for booking (time dependent)
+
+TO IMPORT:
+- File handler
+.. in case passenger's family members are employees(special benefits)
+.. reward points for frequent travellers
+.. profit, loss,annual income
+- user-defined scanners (done) (setup COMPLETE)
+- invalid input handler (done) (setup incomplete)
+
+predefined routes:
+bbsr, delhi, bangalore, jammu & kashmir, guwahati, kerala
+
+refactored time- 
+2.5 mins = 1 hour, 0.4sec=1 min
+1 min= 0.4 hours(24 mins), 1 sec= 2.5 mins
+23:59 + 2:59 = 2:58
+
+
+
+
+name          ->
+email address ->
+ph number     ->
