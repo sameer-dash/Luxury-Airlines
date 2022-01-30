@@ -37,13 +37,13 @@ IN flight_info_status ARRAY of STRUCTURES set:
 - seats availibility (latecomers pai option available nahi)
 - price for booking (time dependent)
 
-TO IMPORT:
-- File handler
-.. in case passenger's family members are employees(special benefits)
-.. reward points for frequent travellers
-.. profit, loss,annual income
-- user-defined scanners (done) (setup COMPLETE)
-- invalid input handler (done) (setup incomplete)
+IN Save file
+- in case passenger's family members are employees(special benefits)
+- reward points for frequent travellers
+- profit, loss,annual income
+
+
+... invalid choices handler function required
 
 predefined routes:
 bbsr, delhi, bangalore, jammu & kashmir, guwahati, kerala
